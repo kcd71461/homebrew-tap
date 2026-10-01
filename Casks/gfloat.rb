@@ -7,6 +7,8 @@ cask "gfloat" do
   desc "Floating Google Gemini window for macOS"
   homepage "https://github.com/kcd71461/gfloat"
 
+  deprecate! date: "2026-10-02", because: :unmaintained
+
   depends_on macos: ">= :sonoma"
 
   app "GFloat.app"
